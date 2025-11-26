@@ -18,7 +18,7 @@ jobs:
         with:
           repository: jfcmontmorency/compendium
           path: content
-          token: ${{ secrets.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 }}
+          token: ${{ secrets.PAT_CONTENT }}
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
