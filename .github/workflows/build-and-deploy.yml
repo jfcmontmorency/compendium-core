@@ -5,6 +5,9 @@ on:
     types: [build-from-compendium]
   workflow_dispatch: {}  # te permet de lancer manuellement au besoin
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
