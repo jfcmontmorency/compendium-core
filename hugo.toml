@@ -1,0 +1,13 @@
+baseURL = "https://jfcmontmorency.github.io/compendium-core/"
+languageCode = "fr-ca"
+title = "Compendium"
+theme = "hugo-book"
+
+disablePathToLower = true
+enableGitInfo = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  BookTheme = "light"        # light, dark, auto
+  BookToC = true             # table des matières à droite
+  BookSection = "*"          # pour l’instant, montrer toutes les sections
