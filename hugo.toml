@@ -3,6 +3,7 @@ languageCode = "fr-ca"
 title = "Compendium"
 theme = "hugo-book"
 
+contentDir = "content/cours"
 disablePathToLower = true
 enableGitInfo = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
